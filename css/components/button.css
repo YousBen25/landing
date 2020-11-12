@@ -1,0 +1,17 @@
+/* Your button CSS file */
+
+.btn-medium {
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 16px;
+  font-weight: lighter;
+  opacity: .8;
+  font-weight: bold;
+
+}
+
+.btn-medium:hover {
+  background-color: #072ac8;
+}
+

@@ -1,0 +1,58 @@
+/* Your card CSS file */
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.card-trip-infos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.card-trip h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    opacity: 0.7;
+}
+
+
+.card-trip p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+    color: black;
+}
+
+.card-trip img {
+    border: 1px solid white;
+    height: 200px;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

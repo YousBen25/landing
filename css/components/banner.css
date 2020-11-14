@@ -1,20 +1,8 @@
 .banner {
-  background-image: url(/images/jardin.JPG);
   background-size: cover;
   background-position: bottom;
   padding: 200px 0;
   height: 86px;
-  opacity: 0.8;
-  position: relative;
-}
-
-.banner-avatar {
-  width: 129px;
-  border-radius: 50%;
-  position: absolute;
-  right: 806px;
-  top: 15px;
-  image-rendering: -webkit-optimize-contrast;
 }
 
 .banner-title {

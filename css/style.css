@@ -26,7 +26,11 @@ a {
 
 .container {
   width: 1069px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.container > h1 {
+  margin-bottom: 16px;
 }
 
 .footer {
@@ -34,6 +38,13 @@ a {
   padding: 42px;
   background-color: #072ac8;
   margin-top: 38px;
+}
+
+#logo {
+  width: 88px;
+  border-radius: 50%;
+  image-rendering: -webkit-optimize-contrast;
+  padding: 0px;
 }
 
 .links {
@@ -53,3 +64,59 @@ a {
 .footer p {
   margin-bottom: -7px;
 }
+
+@media (max-width: 1250px) {
+  .container {
+    width: 1069px;
+  }
+
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 700px;
+  }
+
+  .banner-text {
+    font-size: 12px;
+    margin-top: -16px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .btn-medium {
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+
+  .card-trip {
+    width: 58%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 250px
+  }
+
+  .banner-text {
+    font-size: 10px;
+    margin-top: -16px;
+  }
+
+  .banner-title {
+    font-size: 18px;
+  }
+
+  .btn-medium {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  .banner a {
+    margin-left: 25px;
+  }
+}
+

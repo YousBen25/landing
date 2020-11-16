@@ -94,6 +94,11 @@ a {
   .card-trip {
     width: 58%;
   }
+
+  .mobile-flex {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 540px) {
@@ -117,11 +122,6 @@ a {
 
   .banner a {
     margin-left: 25px;
-  }
-
-  .mobile-flex {
-    display: flex;
-    justify-content: center;
   }
 }
 

@@ -118,5 +118,10 @@ a {
   .banner a {
     margin-left: 25px;
   }
+
+  .mobile-flex {
+    display: flex;
+    justify-content: center;
+  }
 }
 

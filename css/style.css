@@ -91,9 +91,6 @@ a {
     font-size: 14px;
   }
 
-  .card-trip {
-    width: 58%;
-  }
 
   .mobile-flex {
     display: flex;
@@ -103,7 +100,7 @@ a {
 
 @media (max-width: 540px) {
   .container {
-    width: 250px
+    width: 400px
   }
 
   .banner-text {
@@ -123,5 +120,10 @@ a {
   .banner a {
     margin-left: 25px;
   }
+  .mobile-flex {
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
